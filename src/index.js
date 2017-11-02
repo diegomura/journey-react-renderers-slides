@@ -7,6 +7,7 @@ import touch from 'bespoke-touch';
 import progress from 'bespoke-progress';
 import bullets from 'bespoke-bullets';
 import backdrop from 'bespoke-backdrop';
+import fullscreen from 'bespoke-fullscreen';
 import prism from 'bespoke-prism';
 import App from './components/App';
 import './styles/index.css';
@@ -21,6 +22,7 @@ const plugins = [
   progress(),
   backdrop(),
   bullets('li'),
+  fullscreen(),
   prism(),
 ];
 
