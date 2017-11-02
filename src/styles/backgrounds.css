@@ -1,3 +1,7 @@
 .middle-earth {
   background-image: url('../static/images/middle_earth.jpg');
 }
+
+.middle-earth-muted {
+  background-image: url('../static/images/middle_earth_muted.jpg');
+}
