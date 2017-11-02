@@ -1,22 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import cube from 'bespoke-theme-cube';
+import nebula from 'bespoke-theme-nebula';
 import classes from 'bespoke-classes';
 import keys from 'bespoke-keys';
 import touch from 'bespoke-touch';
 import progress from 'bespoke-progress';
 import bullets from 'bespoke-bullets';
+import backdrop from 'bespoke-backdrop';
 import prism from 'bespoke-prism';
 import App from './components/App';
+import './styles/index.css';
 
 const MOUNT_ELEMENT = document.getElementById('root');
 
 const plugins = [
-  cube(),
+  nebula(),
   classes(),
   keys(),
   touch(),
   progress(),
+  backdrop(),
   bullets('li'),
   prism(),
 ];

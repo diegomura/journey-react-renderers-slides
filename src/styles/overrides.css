@@ -1,0 +1,16 @@
+.bespoke-backdrop-before, .bespoke-backdrop-after {
+  transform: translate3d(0%, 0, 0) !important;
+}
+
+.bespoke-backdrop-active {
+  opacity: 0.3 !important;
+}
+
+.bespoke-progress-bar {
+  opacity: 0.5;
+}
+
+.bespoke-slide {
+  height: 580px;
+  margin-top: -290px;
+}

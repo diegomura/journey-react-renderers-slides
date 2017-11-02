@@ -16,9 +16,18 @@ module.exports = {
         exclude: /node_modules/,
       },
       {
-        test: /\.(png|jpeg)$/,
+        test: /\.css$/,
+        loader: ['style-loader', 'css-loader', 'postcss-loader']
+      },
+      {
+        test: /\.(png|jpeg|jpg)$/,
         loader: 'file-loader'
-      }
+      },
+      {
+        test: /\.ttf(\?.*)?$/,
+        loader:
+          'url-loader?prefix=fonts/&name=[path][name].[ext]&limit=10000&mimetype=application/octet-stream',
+      },
     ]
   },
   plugins: [

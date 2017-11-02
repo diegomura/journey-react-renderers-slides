@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Aniron';
+  src: url("../static/fonts/aniron_bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aniron';
+  src: url("../static/fonts/aniron_regular.ttf");
+  font-weight: regular;
+  font-style: normal;
+}
