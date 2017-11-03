@@ -3,7 +3,7 @@ import SocialInfo from '../components/SocialInfo';
 import TwitterLogo from '../static/images/twitter.png';
 import GithubLogo from '../static/images/github.png';
 
-const Slide01 = () => (
+const Slide20 = () => (
   <section data-bespoke-backdrop="middle-earth">
     <h1>Thanks!</h1>
     <SocialInfo image={TwitterLogo} username="@diegomura" />
@@ -11,4 +11,4 @@ const Slide01 = () => (
   </section>
 );
 
-export default Slide01;
+export default Slide20;

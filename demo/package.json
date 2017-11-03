@@ -10,6 +10,7 @@
   "dependencies": {
     "@react-pdf/core": "^0.5.1",
     "@react-pdf/node": "^0.5.1",
+    "lodash": "^4.17.4",
     "react": "^16.0.0"
   },
   "devDependencies": {
