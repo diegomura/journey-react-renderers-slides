@@ -11,3 +11,9 @@
   font-weight: regular;
   font-style: normal;
 }
+
+@for $i from 8 to 70 {
+  .fs-$i {
+    font-size: $(i)px !important;
+  }
+}

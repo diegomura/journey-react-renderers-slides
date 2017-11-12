@@ -1,34 +1,50 @@
 import React from 'react';
-import Log from 'react-log';
+import Code from '../components/Code';
 import ReactLog from '../static/images/react-log.png';
 
 const Slide03 = () => (
-  <section data-bespoke-backdrop="middle-earth-emphatic">
-    <img className="fit" src={ReactLog} />
-
-    <Log>
-      <h1
-        style={{
-          color: 'black',
-          fontFamily: 'Open Sans, sans-serif',
-          fontWeight: 'normal',
-          fontSize: '50px'
-        }}>
-        React
-        <span
-          style={{
-            color: 'white',
-            fontFamily: 'Arial, Helvetica, sans-serif',
-            background: 'linear-gradient(to bottom right, #13493b, #016a26)',
-            fontSize: '45px',
-            fontWeight: 'bold',
-            marginLeft: '10px',
-            padding: '5px'
-          }}>
-          log
-        </span>
-      </h1>
-    </Log>
+  <section
+    className="flex flex-row mx0 l0 full-width"
+    data-bespoke-backdrop="middle-earth-muted"
+  >
+    <div className="unique-bullet">
+      <Code language="html">
+        {`<h1 className="title">
+            Here be dragons!
+          </h1>`}
+      </Code>
+    </div>
+    <div className="ml1 items-center unique-bullet">
+      <span className="mr1 fs-45">↠</span>
+      <Code language="js">
+        {`React.createElement(
+            "h1",
+            { className: "title" },
+            "Here be dragons!"
+          );`}
+      </Code>
+    </div>
+    <div className="ml1 relative items-center unique-bullet">
+      <span className="mr1 fs-45">↠</span>
+      <p
+        className="unique-bullet absolute items-end "
+        style={{ bottom: '-75px', left: '-30px' }}
+      >
+        <span>This is plain JS!</span>
+        <span className="fs-60 ml1">⤴</span>
+      </p>
+      <Code language="js">
+        {`{
+            type: 'div',
+            ref: null,
+            key: null,
+            props: {
+              className: 'title',
+              children: 'Here be dragons!'
+            }
+          }`}
+      </Code>
+    </div>
   </section>
 );
 

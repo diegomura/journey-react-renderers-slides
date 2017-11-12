@@ -2,6 +2,8 @@
 @import "./backgrounds";
 @import "./overrides";
 @import "./layout";
+@import "./margins";
+@import "./flexbox";
 
 h1 {
   padding-left: 0px;
@@ -9,4 +11,11 @@ h1 {
   line-height: 1.8em;
   font-family: 'Aniron';
   margin-bottom: 1em;
+}
+
+pre {
+  font-size: 120% !important;
+  border: 0px !important;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 80%) !important;
 }
