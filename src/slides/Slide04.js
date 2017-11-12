@@ -89,6 +89,14 @@ class Slide04 extends React.Component {
       <section data-bespoke-backdrop="middle-earth-emphatic">
         <img className="fit" src={ReactLog} />
 
+        <p
+          className="absolute gray items-center"
+          style={{ bottom: '0px', right: '0px' }}
+        >
+          <span className="fs-25">Open your console</span>
+          <span className="fs-50 ml1">↠</span>
+        </p>
+
         { active &&
           <Log>
             {isFunction(examples[currentExample])
