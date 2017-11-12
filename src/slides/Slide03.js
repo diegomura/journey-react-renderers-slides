@@ -30,7 +30,7 @@ const Slide03 = () => (
         className="unique-bullet absolute items-end "
         style={{ bottom: '-75px', left: '-30px' }}
       >
-        <span>This is plain JS!</span>
+        <span className="fs-30">This is plain JS!</span>
         <span className="fs-60 ml1">⤴</span>
       </p>
       <Code language="js">

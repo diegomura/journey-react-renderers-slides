@@ -41,6 +41,8 @@
     "bespoke-theme-nebula": "^1.0.1",
     "bespoke-touch": "^1.0.0",
     "classnames": "^2.2.5",
+    "lodash": "^4.17.4",
+    "moment": "^2.19.2",
     "postcss-for": "^2.1.1",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
