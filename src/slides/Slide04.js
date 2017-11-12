@@ -66,7 +66,7 @@ class Slide04 extends React.Component {
   }
 
   onPrevSlide = () => {
-    if (this.state.currentExample === 1) {
+    if (this.state.currentExample <= 1) {
       return true;
     }
 
