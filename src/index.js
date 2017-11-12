@@ -21,7 +21,7 @@ const plugins = [
   touch(),
   progress(),
   backdrop(),
-  bullets('li'),
+  bullets('li, .bullet'),
   fullscreen(),
   prism(),
 ];

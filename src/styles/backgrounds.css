@@ -5,3 +5,11 @@
 .middle-earth-muted {
   background-image: url('../static/images/middle_earth_muted.jpg');
 }
+
+.middle-earth-emphatic {
+  background-image: url('../static/images/middle_earth_emphatic.jpg');
+}
+
+.bespoke-backdrop-active.middle-earth-emphatic {
+  opacity: 1 !important;
+}
