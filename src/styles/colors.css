@@ -1,7 +1,17 @@
+:root {
+  --red: #a8393a;
+  --gray: #888;
+  --black: #000;
+}
+
 .black {
-  color: black;
+  color: var(--black);
 }
 
 .gray {
-  color: #888;
+  color: var(--gray);
+}
+
+.red {
+  color: var(--red);
 }

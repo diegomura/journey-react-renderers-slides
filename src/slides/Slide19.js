@@ -1,5 +1,4 @@
 import React from 'react';
-import SocialInfo from '../components/SocialInfo';
 
 const Slide19 = () => (
   <section data-bespoke-backdrop="middle-earth-muted">

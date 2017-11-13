@@ -13,6 +13,7 @@ import App from './components/App';
 import './styles/index.css';
 
 const MOUNT_ELEMENT = document.getElementById('root');
+const BULLET_ELEMENTS = 'li, .bullet, .unique-bullet, .grow-bullet';
 
 const plugins = [
   nebula(),
@@ -21,7 +22,7 @@ const plugins = [
   touch(),
   progress(),
   backdrop(),
-  bullets('li, .bullet, .unique-bullet'),
+  bullets(BULLET_ELEMENTS),
   fullscreen(),
   prism(),
 ];

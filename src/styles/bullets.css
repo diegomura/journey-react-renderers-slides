@@ -1,0 +1,34 @@
+@keyframes grow {
+  0% {
+    opacity: 0;
+    max-width: 0px;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    max-width: 600px;
+  }
+}
+
+.unique-bullet {
+  display: none !important;
+}
+
+.unique-bullet.bespoke-bullet-current,
+.unique-bullet.bespoke-bullet-active:last-child {
+  display: initial !important;
+}
+
+.grow-bullet {
+  display: none !important;
+}
+
+.grow-bullet.bespoke-bullet-active {
+  display: flex !important;
+}
+
+.grow-bullet.bespoke-bullet-active:not(:first-child) {
+  animation: grow 2s;
+}

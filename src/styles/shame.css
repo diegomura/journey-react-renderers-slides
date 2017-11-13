@@ -1,0 +1,31 @@
+.ribbon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--red);
+  height: 102px;
+  max-width: 120px;
+  margin: 0 20px;
+  z-index: 1;
+}
+
+.ribbon > * {
+  z-index: 10;
+}
+
+.ribbon:before, .ribbon:after {
+  content: '';
+  position: absolute;
+  border-bottom: 60px solid var(--red);
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  top: 60px;
+  left: -31px;
+  transform: rotate(-140deg);
+  z-index: 0;
+}
+.ribbon:after {
+  left: auto;
+  right: -31px;
+  transform: rotate(140deg);
+}

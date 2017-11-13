@@ -13,3 +13,7 @@
 .bespoke-backdrop-active.middle-earth-emphatic {
   opacity: 1 !important;
 }
+
+.bg-red {
+  background: var(--red);
+}

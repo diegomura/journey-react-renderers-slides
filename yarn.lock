@@ -992,9 +992,9 @@ bespoke-backdrop@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/bespoke-backdrop/-/bespoke-backdrop-1.0.0.tgz#bc61d44f8023d49ab92abcb0085f10c1d3ae232d"
 
-bespoke-bullets@^1.1.0:
+"bespoke-bullets@git+https://git@github.com/diegomura/bespoke-bullets.git":
   version "1.1.0"
-  resolved "https://registry.yarnpkg.com/bespoke-bullets/-/bespoke-bullets-1.1.0.tgz#c5fa7e0e6ad047a21cf5797d47aff598c6cbb721"
+  resolved "git+https://git@github.com/diegomura/bespoke-bullets.git#73e642cfcca2f01fee6e6970a0fcc3a90f86d2d3"
 
 bespoke-classes@^1.0.0:
   version "1.0.0"

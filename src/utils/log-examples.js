@@ -75,10 +75,28 @@ const StyledDateExample = ({ date }) => (
 );
 
 export default [,
-  HeadingsExample,
-  ListsExample,
-  LinkExample,
-  LogoExample,
-  DateExample,
-  StyledDateExample
+  {
+    title: 'Headings',
+    comp: HeadingsExample
+  },
+  {
+    title: 'Lists',
+    comp: ListsExample,
+  },
+  {
+    title: 'Links',
+    comp: LinkExample,
+  },
+  {
+    title: 'Custom styling',
+    comp: LogoExample,
+  },
+  {
+    title: 'Using the state',
+    comp: DateExample,
+  },
+  {
+    title: 'And more!',
+    comp: StyledDateExample,
+  }
 ];

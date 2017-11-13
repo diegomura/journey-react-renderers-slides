@@ -7,14 +7,14 @@ const Slide03 = () => (
     className="flex flex-row mx0 l0 full-width"
     data-bespoke-backdrop="middle-earth-muted"
   >
-    <div className="unique-bullet">
+    <div className="grow-bullet">
       <Code language="html">
         {`<h1 className="title">
             Here be dragons!
           </h1>`}
       </Code>
     </div>
-    <div className="ml1 items-center unique-bullet">
+    <div className="ml1 items-center grow-bullet">
       <span className="mr1 fs-45">↠</span>
       <Code language="js">
         {`React.createElement(
@@ -24,10 +24,10 @@ const Slide03 = () => (
           );`}
       </Code>
     </div>
-    <div className="ml1 relative items-center unique-bullet">
+    <div className="ml1 relative items-center grow-bullet">
       <span className="mr1 fs-45">↠</span>
       <p
-        className="unique-bullet absolute items-end "
+        className="grow-bullet absolute items-end "
         style={{ bottom: '-75px', left: '-30px' }}
       >
         <span className="fs-30">This is plain JS!</span>
