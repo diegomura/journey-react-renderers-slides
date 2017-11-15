@@ -8,12 +8,19 @@
 @import "./flexbox";
 @import "./shame";
 
+h1, h2 {
+  font-family: 'Aniron';
+}
+
 h1 {
   padding-left: 0px;
   padding-right: 0px;
   line-height: 1.8em;
-  font-family: 'Aniron';
   margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 29px;
 }
 
 pre {
