@@ -1,8 +1,11 @@
 import React from 'react';
 import classNames from 'classnames';
 
-const Slideshow = ({ active, size, children }) => (
-  <div className="relative" style={{ width: size, height: size }}>
+const Slideshow = ({ active, width, height, className, children }) => (
+  <div
+    style={{ width: width, height: height }}
+    className={classNames('relative', className)}
+  >
     {React.Children.toArray(children).map((child, i) => (
       React.cloneElement(child, {
         key: i,

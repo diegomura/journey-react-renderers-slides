@@ -46,7 +46,7 @@ class Slide12 extends React.PureComponent {
           </div>
           <div className="grow-bullet full-height items-center">
             <span className="mr1 fs-65">↠</span>
-            <Slideshow active={this.state.active} size={200}>
+            <Slideshow active={this.state.active} width={200} height={200}>
               <img src={ReactDOM} className="fit" />
               <img src={ReactNative} className="fit" />
               <img src={ReactVR} className="fit" />
@@ -54,7 +54,7 @@ class Slide12 extends React.PureComponent {
               <img src={ReactBlessed} className="fit" />
             </Slideshow>
             <span className="mx1 fs-65">↠</span>
-            <Slideshow active={this.state.active} size={150}>
+            <Slideshow active={this.state.active} width={150} height={150}>
               <img src={Browser} className="fit" />
               <img src={Mobile} className="fit" />
               <img src={Oculus} className="fit" />
