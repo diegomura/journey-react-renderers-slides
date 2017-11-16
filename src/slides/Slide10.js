@@ -10,7 +10,7 @@ const Slide10 = () => (
     >
       20th October, 2016
     </Ribbon>
-    <img src={Meetup} style={{ width: '40vw' }} />
+    <img src={Meetup} style={{ width: '35vw' }} />
   </section>
 );
 
