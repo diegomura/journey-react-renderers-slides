@@ -29,3 +29,13 @@
   right: -31px;
   transform: rotate(140deg);
 }
+
+/* Not proud of this, but whatever */
+.slideshow {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.slideshow-active {
+  opacity: 1;
+}

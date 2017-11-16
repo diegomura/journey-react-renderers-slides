@@ -1004,6 +1004,10 @@ bespoke-fullscreen@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/bespoke-fullscreen/-/bespoke-fullscreen-1.0.0.tgz#57aecac08a3444bc0329c9e288075c856277f64b"
 
+bespoke-hash@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/bespoke-hash/-/bespoke-hash-1.1.0.tgz#7cff6f4e07352828a9fd30937239e9d713c63a0f"
+
 bespoke-keys@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/bespoke-keys/-/bespoke-keys-1.1.0.tgz#64c0418e532ae1c5c5966a9ea0ac60e8f28ecb22"

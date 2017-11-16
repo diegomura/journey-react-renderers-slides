@@ -35,6 +35,7 @@
     "bespoke-bullets": "git+https://git@github.com/diegomura/bespoke-bullets.git",
     "bespoke-classes": "^1.0.0",
     "bespoke-fullscreen": "^1.0.0",
+    "bespoke-hash": "^1.1.0",
     "bespoke-keys": "^1.1.0",
     "bespoke-prism": "^1.0.1",
     "bespoke-progress": "^1.0.0",

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import nebula from 'bespoke-theme-nebula';
 import classes from 'bespoke-classes';
 import keys from 'bespoke-keys';
+import hash from 'bespoke-hash';
 import touch from 'bespoke-touch';
 import progress from 'bespoke-progress';
 import bullets from 'bespoke-bullets';
@@ -19,6 +20,7 @@ const plugins = [
   nebula(),
   classes(),
   keys(),
+  hash(),
   touch(),
   progress(),
   backdrop(),
