@@ -8,7 +8,7 @@ const Slide10 = () => (
       className="fixed aniron fs-19 lh-26"
       style={{ top: 0, left: 20 }}
     >
-      20th October, 2016
+      20 October, 2016
     </Ribbon>
     <img src={Meetup} style={{ width: '35vw' }} />
   </section>

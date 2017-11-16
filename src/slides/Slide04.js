@@ -9,7 +9,7 @@ const Slide04 = () => (
       className="fixed aniron fs-20 lh-26"
       style={{ top: 0, left: 20 }}
     >
-      18th July, 2016
+      18 July, 2016
     </Ribbon>
 
     <img className="fit absolute bullet" src={Console1} />
