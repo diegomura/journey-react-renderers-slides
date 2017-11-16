@@ -1,19 +1,13 @@
 import React from 'react';
-import Ribbon from '../components/Ribbon';
-import Console1 from '../static/images/Console1.png';
-import Console2 from '../static/images/Console2.png';
 
 const Slide03 = () => (
   <section data-bespoke-backdrop="middle-earth-muted">
-    <Ribbon
-      className="fixed aniron fs-20 lh-26"
-      style={{ top: 0, left: 20 }}
-    >
-      18th July, 2016
-    </Ribbon>
-
-    <img className="fit absolute bullet" src={Console1} />
-    <img className="fit absolute bullet" src={Console2} />
+    <h2 className="mb1">Some advantages</h2>
+    <ul>
+      <li>Hides complex API</li>
+      <li>Apply the same knowledge that you already have on other platforms</li>
+      <li>Simple serializable interfaces</li>
+    </ul>
   </section>
 );
 
