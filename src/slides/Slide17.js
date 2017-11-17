@@ -11,8 +11,10 @@ const Slide17 = () => (
     >
       13 March, 2017
     </Ribbon>
-    <img className="fit absolute bullet" src={ReactConf} />
-    <img className="fit absolute bullet" src={ReactConf2} />
+    <div className="relative" style={{ width: '940px', height: '528px' }}>
+      <img className="fit t0 l0 absolute bullet" src={ReactConf} />
+      <img className="fit t0 l0 absolute bullet" src={ReactConf2} />
+    </div>
     <p>* Lin Clark - A Cartoon Intro to Fiber - React Conf 2017</p>
   </section>
 );
