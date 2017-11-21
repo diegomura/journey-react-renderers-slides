@@ -1,22 +1,52 @@
 import React from 'react';
-import Ribbon from '../components/Ribbon';
-import ReactConf from '../static/images/reactconf.jpg';
-import ReactConf2 from '../static/images/reactconf2.jpg';
+import Slideshow from '../components/Slideshow';
+import Tweet1 from '../static/images/tweet1.png';
+import Tweet2 from '../static/images/tweet2.png';
+import Tweet3 from '../static/images/tweet3.png';
+import Tweet4 from '../static/images/tweet4.png';
+import Tweet5 from '../static/images/tweet5.png';
+import Tweet6 from '../static/images/tweet6.png';
 
-const Slide17 = () => (
-  <section data-bespoke-backdrop="middle-earth-muted">
-    <Ribbon
-      className="fixed aniron fs-20 lh-26"
-      style={{ top: 0, left: 20 }}
-    >
-      13 March, 2017
-    </Ribbon>
-    <div className="relative" style={{ width: '940px', height: '528px' }}>
-      <img className="fit t0 l0 absolute bullet" src={ReactConf} />
-      <img className="fit t0 l0 absolute bullet" src={ReactConf2} />
-    </div>
-    <p>* Lin Clark - A Cartoon Intro to Fiber - React Conf 2017</p>
-  </section>
-);
+const SLIDES = 6;
+
+class Slide17 extends React.PureComponent {
+  constructor(props) {
+    super(props);
+
+    this.state = { active: 0 };
+  }
+
+  componentDidMount() {
+    setInterval(() => {
+      this.setState(({ active }) => {
+        if (active >= SLIDES - 1) {
+          return { active: 0 };
+        }
+
+        return { active: active + 1 };
+      })
+    }, 4000)
+  }
+
+  render() {
+    return (
+      <section data-bespoke-backdrop="middle-earth-muted">
+        <Slideshow
+          width={560}
+          height={310}
+          active={this.state.active}
+          className="align-center"
+        >
+          <img className="fit" src={Tweet1} />
+          <img className="fit" src={Tweet2} />
+          <img className="fit" src={Tweet3} />
+          <img className="fit" src={Tweet4} />
+          <img className="fit" src={Tweet5} />
+          <img className="fit" src={Tweet6} />
+        </Slideshow>
+      </section>
+    );
+  }
+}
 
 export default Slide17;

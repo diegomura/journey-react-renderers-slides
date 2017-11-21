@@ -39,7 +39,7 @@ class Slide13 extends React.PureComponent {
         className="flex"
         data-bespoke-backdrop="middle-earth-muted"
       >
-        <h2 className="mb1">Renderers</h2>
+        <h2 className="mb1">React Renderers</h2>
         <div className="flex flex-row" style={{ flex: 1 }}>
           <div className="grow-bullet full-height items-center" style={{ flex: 1 }}>
             <img src={Tree2} className="max-width max-height" />
