@@ -38,7 +38,7 @@ const Slide06 = () => (
       </p>
       <Code language="js">
         {`{
-            type: 'div',
+            type: 'h1',
             ref: null,
             key: null,
             props: {
