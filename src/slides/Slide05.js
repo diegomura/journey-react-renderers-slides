@@ -1,6 +1,7 @@
 import React from 'react';
 import Code from '../components/Code';
 import ReactLog from '../static/images/react-log.png';
+import Arrow from '../static/images/arrow.png';
 
 const Slide05 = () => (
   <section
@@ -28,10 +29,12 @@ const Slide05 = () => (
       <span className="mr1 fs-45">↠</span>
       <p
         className="grow-bullet absolute items-end "
-        style={{ bottom: '-75px', left: '-30px' }}
+        style={{ bottom: '-100px', left: '-30px' }}
       >
-        <span className="fs-30">This is plain JS!</span>
-        <span className="fs-60 ml1">⤴</span>
+        <span className="fs-30" style={{ transform: 'rotate(-6deg)' }}>
+          This is plain JS!
+        </span>
+        <img src={Arrow} style={{ width: 80, marginBottom: 28 }} />
       </p>
       <Code language="js">
         {`{
