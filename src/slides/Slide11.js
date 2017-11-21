@@ -4,9 +4,13 @@ import Meetup from '../static/images/meetup.png';
 
 const Slide11 = () => (
   <section data-bespoke-backdrop="middle-earth-muted">
-    <h2 className="lh-60">
-      <span className="red">React renderers</span> manage how a React tree turns into the underlying platform calls
-    </h2>
+    <Ribbon
+      className="fixed aniron fs-19 lh-26"
+      style={{ top: 0, left: 20 }}
+    >
+      20 October, 2016
+    </Ribbon>
+    <img src={Meetup} style={{ width: '35vw' }} />
   </section>
 );
 
