@@ -30,9 +30,6 @@ const plugins = [
 ];
 
 ReactDOM.render(
-  <App
-    mountElement={MOUNT_ELEMENT}
-    plugins={plugins}
-  />,
-  MOUNT_ELEMENT
+  <App mountElement={MOUNT_ELEMENT} plugins={plugins} />,
+  MOUNT_ELEMENT,
 );

@@ -24,8 +24,8 @@ class Slide17 extends React.PureComponent {
         }
 
         return { active: active + 1 };
-      })
-    }, 4000)
+      });
+    }, 4000);
   }
 
   render() {

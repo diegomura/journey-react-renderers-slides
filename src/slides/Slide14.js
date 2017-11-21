@@ -4,10 +4,7 @@ import QuestionMark from '../static/images/question-mark.png';
 import Document from '../static/images/pdf-document.png';
 
 const Slide14 = () => (
-  <section
-    className="flex flex-row"
-    data-bespoke-backdrop="middle-earth-muted"
-  >
+  <section className="flex flex-row" data-bespoke-backdrop="middle-earth-muted">
     <div className="flex full-height items-center" style={{ flex: 1 }}>
       <img src={Tree2} className="max-width max-height" />
     </div>

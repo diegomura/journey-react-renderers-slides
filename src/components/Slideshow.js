@@ -6,14 +6,14 @@ const Slideshow = ({ active, width, height, className, children }) => (
     style={{ width: width, height: height }}
     className={classNames('relative', className)}
   >
-    {React.Children.toArray(children).map((child, i) => (
+    {React.Children.toArray(children).map((child, i) =>
       React.cloneElement(child, {
         key: i,
-        className: classNames('slideshow fit absolute t0 l0',{
-          'slideshow-active': active === i
+        className: classNames('slideshow fit absolute t0 l0', {
+          'slideshow-active': active === i,
         }),
-      })
-    ))}
+      }),
+    )}
   </div>
 );
 

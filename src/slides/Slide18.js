@@ -7,7 +7,11 @@ const Slide18 = () => (
     <h2 className="mb1">Opencollective</h2>
     <div className="flex items-center" style={{ flex: 1 }}>
       <img src={Email} className="unique-bullet" style={{ width: '60vw' }} />
-      <img src={OpenCollective} className="unique-bullet" style={{ width: '32vw' }} />
+      <img
+        src={OpenCollective}
+        className="unique-bullet"
+        style={{ width: '32vw' }}
+      />
     </div>
   </section>
 );

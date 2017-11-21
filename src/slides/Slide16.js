@@ -5,10 +5,7 @@ import ReactConf2 from '../static/images/reactconf2.jpg';
 
 const Slide16 = () => (
   <section data-bespoke-backdrop="middle-earth-muted">
-    <Ribbon
-      className="fixed aniron fs-20 lh-26"
-      style={{ top: 0, left: 20 }}
-    >
+    <Ribbon className="fixed aniron fs-20 lh-26" style={{ top: 0, left: 20 }}>
       13 March, 2017
     </Ribbon>
     <div className="relative" style={{ width: '940px', height: '528px' }}>

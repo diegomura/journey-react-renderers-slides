@@ -29,11 +29,12 @@ const ListsExample = (
 
 const LinkExample = (
   <a
-    href='https://github.com/diegomura/react-log'
-    style={{ display:'block', color:'blue' }}>
+    href="https://github.com/diegomura/react-log"
+    style={{ display: 'block', color: 'blue' }}
+  >
     React-log repo
   </a>
-)
+);
 
 const LogoExample = (
   <h1
@@ -41,8 +42,9 @@ const LogoExample = (
       color: 'black',
       fontFamily: 'Open Sans, sans-serif',
       fontWeight: 'normal',
-      fontSize: '50px'
-    }}>
+      fontSize: '50px',
+    }}
+  >
     React
     <span
       style={{
@@ -52,32 +54,33 @@ const LogoExample = (
         fontSize: '45px',
         fontWeight: 'bold',
         marginLeft: '10px',
-        padding: '5px'
-      }}>
+        padding: '5px',
+      }}
+    >
       log
     </span>
   </h1>
 );
 
-const DateExample = ({ date }) => (
-  <h2>
-    {date}
-  </h2>
-);
+const DateExample = ({ date }) => <h2>{date}</h2>;
 
 const StyledDateExample = ({ date }) => (
-  <h2 style={{
-    padding: '10px',
-    background: 'linear-gradient(to bottom right, #F00, #FF0, #0F0, #0FF, #00F)',
-  }}>
+  <h2
+    style={{
+      padding: '10px',
+      background:
+        'linear-gradient(to bottom right, #F00, #FF0, #0F0, #0FF, #00F)',
+    }}
+  >
     {`🦄${date}🦄`}
   </h2>
 );
 
-export default [,
+export default [
+  ,
   {
     title: 'Headings',
-    comp: HeadingsExample
+    comp: HeadingsExample,
   },
   {
     title: 'Lists',
@@ -98,5 +101,5 @@ export default [,
   {
     title: 'And more!',
     comp: StyledDateExample,
-  }
+  },
 ];

@@ -7,7 +7,7 @@ class Slide05 extends React.Component {
       console.log(
         '%c⛔️Stop%c\nThis is dangerous',
         'color: red; font-size: 22px; font-weight: bold;',
-        'color: black; font-weight: bold;'
+        'color: black; font-weight: bold;',
       );
     }
   }
@@ -26,6 +26,6 @@ class Slide05 extends React.Component {
       </section>
     );
   }
-};
+}
 
 export default Slide05;

@@ -5,10 +5,7 @@ import Console2 from '../static/images/Console2.png';
 
 const Slide04 = () => (
   <section data-bespoke-backdrop="middle-earth-muted">
-    <Ribbon
-      className="fixed aniron fs-20 lh-26"
-      style={{ top: 0, left: 20 }}
-    >
+    <Ribbon className="fixed aniron fs-20 lh-26" style={{ top: 0, left: 20 }}>
       18 July, 2016
     </Ribbon>
 

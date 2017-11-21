@@ -6,7 +6,13 @@ const Slide02 = () => (
       React beyond the web
       <span
         className="p1 absolute flex justify-center items-center fs-18 lh-29 bullet bg-red circle"
-        style={{ bottom: -145, width: 232, height: 232, right: -70, transform: 'rotate(11deg)' }}
+        style={{
+          bottom: -145,
+          width: 232,
+          height: 232,
+          right: -70,
+          transform: 'rotate(11deg)',
+        }}
       >
         One React to rule them all!
       </span>

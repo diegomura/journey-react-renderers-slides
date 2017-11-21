@@ -2,9 +2,7 @@ import React from 'react';
 
 const Slide20 = () => (
   <section data-bespoke-backdrop="middle-earth-muted">
-    <h2 className="mb1">
-      Some conclusions
-    </h2>
+    <h2 className="mb1">Some conclusions</h2>
     <ul>
       <li>React is awesome!</li>
       <li>Participate your local community</li>

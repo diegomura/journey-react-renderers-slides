@@ -29,7 +29,7 @@ class Slide08 extends React.Component {
 
   updateCurrentDate = () => {
     this.setState({ date: this.getCurrentDate() });
-  }
+  };
 
   componentWillReceiveProps(nextProps) {
     if (nextProps.active) {
@@ -47,21 +47,21 @@ class Slide08 extends React.Component {
         this.props.deck.off('prev', this.onPrevSlide);
       }
 
-      this.setState({ currentExample: 0 })
+      this.setState({ currentExample: 0 });
     }
   }
 
-  onNextSlide = (e) => {
+  onNextSlide = e => {
     if (this.state.currentExample >= examples.length - 1) {
       return true;
     }
 
     this.setState(state => ({
-      currentExample: state.currentExample + 1
+      currentExample: state.currentExample + 1,
     }));
 
     return false;
-  }
+  };
 
   onPrevSlide = () => {
     if (this.state.currentExample <= 1) {
@@ -69,11 +69,11 @@ class Slide08 extends React.Component {
     }
 
     this.setState(state => ({
-      currentExample: state.currentExample - 1
+      currentExample: state.currentExample - 1,
     }));
 
     return false;
-  }
+  };
 
   getCurrentDate() {
     return moment().format('MMMM Do YYYY, h:mm:ss a');
@@ -89,7 +89,7 @@ class Slide08 extends React.Component {
     return examples[currentExample].title;
   }
 
-  render () {
+  render() {
     const { active } = this.props;
     const { currentExample } = this.state;
 
@@ -105,17 +105,16 @@ class Slide08 extends React.Component {
           <span className="fs-50 ml1">↠</span>
         </p>
 
-        { active &&
+        {active && (
           <Log>
             {isFunction(examples[currentExample].comp)
               ? examples[currentExample].comp(this.state)
               : examples[currentExample].comp}
           </Log>
-        }
+        )}
       </section>
     );
   }
-
 }
 
 export default Slide08;

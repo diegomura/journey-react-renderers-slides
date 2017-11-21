@@ -3,9 +3,7 @@ import classNames from 'classnames';
 
 const Ribbon = ({ style, className, children }) => (
   <div className={classNames('ribbon bg-red', className)} style={style}>
-    <span>
-      {children}
-    </span>
+    <span>{children}</span>
   </div>
 );
 
