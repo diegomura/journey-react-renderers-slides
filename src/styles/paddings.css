@@ -1,0 +1,49 @@
+.p0 {
+  padding: 0px !important;
+}
+
+.px0 {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.p1 {
+  padding: 30px;
+}
+
+.px1 {
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+
+.pr1 {
+  padding-right: 30px;
+}
+
+.pl1 {
+  padding-left: 30px;
+}
+
+.pb1 {
+  padding-bottom: 30px;
+}
+
+.pt1 {
+  padding-top: 30px;
+}
+
+.pr2 {
+  padding-right: 50px;
+}
+
+.pl2 {
+  padding-left: 50px;
+}
+
+.pb2 {
+  padding-bottom: 50px;
+}
+
+.pt2 {
+  padding-top: 50px;
+}

@@ -5,6 +5,8 @@
 @import "./overrides";
 @import "./layout";
 @import "./margins";
+@import "./paddings";
+@import "./borders";
 @import "./flexbox";
 @import "./shame";
 

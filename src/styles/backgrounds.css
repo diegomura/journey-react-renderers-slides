@@ -17,3 +17,7 @@
 .bg-red {
   background: var(--red);
 }
+
+.bg-gray {
+  background: var(--gray);
+}
