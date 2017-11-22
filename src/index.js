@@ -14,7 +14,7 @@ import App from './components/App';
 import './styles/index.css';
 
 const MOUNT_ELEMENT = document.getElementById('root');
-const BULLET_ELEMENTS = 'li, .bullet, .unique-bullet, .grow-bullet';
+const BULLET_ELEMENTS = 'ul.bullet li, .bullet, .unique-bullet, .grow-bullet';
 
 const plugins = [
   nebula(),

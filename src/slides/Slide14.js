@@ -4,15 +4,28 @@ import QuestionMark from '../static/images/question-mark.png';
 import Document from '../static/images/pdf-document.png';
 
 const Slide14 = () => (
-  <section className="flex flex-row" data-bespoke-backdrop="middle-earth-muted">
-    <div className="flex full-height items-center" style={{ flex: 1 }}>
-      <img src={Tree2} className="max-width max-height" />
-    </div>
-    <div className="flex full-height items-center">
-      <span className="mr1 fs-65">↠</span>
-      <img src={QuestionMark} className="fit" style={{ width: 200 }} />
-      <span className="mx1 fs-65">↠</span>
-      <img src={Document} className="fit" style={{ width: 200 }} />
+  <section className="flex" data-bespoke-backdrop="middle-earth-muted">
+    <h2 className="mb2">React Renderers</h2>
+    <div className="flex flex-row justify-around full-width">
+      <div>
+        <h3 className="mb1">Official</h3>
+        <ul>
+          <li>react-dom</li>
+          <li>react-native</li>
+          <li>react-vr</li>
+          <li>react-test</li>
+          <li>react-art</li>
+        </ul>
+      </div>
+      <div>
+        <h3 className="mb1">Community driven</h3>
+        <ul>
+          <li>react-hardware</li>
+          <li>react-blessed</li>
+          <li>react-three</li>
+          <li>redocx</li>
+        </ul>
+      </div>
     </div>
   </section>
 );

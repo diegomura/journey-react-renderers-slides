@@ -13,3 +13,7 @@
 .items-end {
   align-items: flex-end;
 }
+
+.justify-around {
+  justify-content: space-around;
+}
