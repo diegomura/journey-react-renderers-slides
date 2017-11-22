@@ -10,6 +10,10 @@ class Slide05 extends React.Component {
         'color: black; font-weight: bold;',
       );
     }
+
+    if (this.props.active && !nextProps.active) {
+      console.clear();
+    }
   }
 
   render() {
