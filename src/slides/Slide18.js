@@ -32,7 +32,7 @@ class Slide18 extends React.PureComponent {
     return (
       <section data-bespoke-backdrop="middle-earth-muted">
         <Slideshow
-          width={660}
+          width={760}
           height={380}
           active={this.state.active}
           className="align-center"
