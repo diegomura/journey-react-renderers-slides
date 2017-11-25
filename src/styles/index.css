@@ -41,3 +41,8 @@ li:before {
   content: '\269C';
   margin-right: 14px;
 }
+
+a {
+  border: 0px !important;
+  text-decoration: none !important;
+}

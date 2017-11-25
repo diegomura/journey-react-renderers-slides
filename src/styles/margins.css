@@ -43,3 +43,8 @@
 .mt2 {
   margin-top: 50px;
 }
+
+.mx2 {
+  margin-right: 50px;
+  margin-left: 50px;
+}
